@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying "best school" 10 times
+# This script is displaying "Best School" 10 times
 
 COUNT=0
-while [ $COUNT -it 10 ]
+while [ $COUNT -lt 10 ]
 do
 echo "Best School"
 COUNT=$(( COUNT + 1 ))
